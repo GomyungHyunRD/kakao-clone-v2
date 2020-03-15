@@ -1,0 +1,127 @@
+<!-- Chart List -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/02adadbc14.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find | Kakao Clone</title>
+</head>
+<body>
+    <!-- .status-bar -->
+    <div class="status-bar">
+        <!-- .status-bar*2 -->
+        <div class="status-bar_column">
+            <!-- span.status-bar-clock -->
+            <span class="status-bar_clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+            <!-- i.fas.fa-volume-mute -->
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar_battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+    <header class="header">
+        <!-- .header_header-columns*2 -->
+            <div class="header_header-columns">
+                <h1 class="header_title">Find</h1>
+            </div>
+            <div class="header_header-columns">
+                <span class="header_icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header_icon">
+                    <!-- 사이즈 변경은 이미지명 뒤에 fa-5x 방식으로 사이즈 입 력 -->
+                    <i class="fas fa-cog"></i>
+                </span>
+            </div>
+    </header>
+    <main class="find">
+        <hedaer class="find_header">
+            <ul class="find_header-list">
+                <li class="find_header-button header-btn">
+                    <span class="header-btn_icon">
+                        <i class="fas fa-qrcode fa-2x"></i>
+                    </span>
+                    <span class="hedaer-btn_title">
+                        QR Code
+                    </span>
+                </li>
+                <li class="find_header-button header-btn">
+                    <span class="header-btn_icon">
+                        <i class="fas fa-user-plus fa-2x"></i>
+                    </span>
+                    <span class="hedaer-btn_title">
+                        Add by Contacts
+                    </span>
+                </li>
+                <li class="find_header-button header-btn">
+                    <span class="header-btn_icon">
+                        <i class="fas fa-passport fa-2x"></i>
+                    </span>
+                    <span class="hedaer-btn_title">
+                        Add by ID
+                    </span>
+                </li>
+                <li class="find_header-button header-btn">
+                    <span class="header-btn_icon">
+                        <i class="far fa-envelope fa-2x"></i>
+                    </span>
+                    <span class="hedaer-btn_title">
+                        InVite
+                    </span>
+                </li>
+            </ul>
+        </hedaer>
+        <ul class="find_recommended">
+            <h5 class="find_title">
+                Recommended Friends
+            </h5>
+            <li class="find_friend friend friend-lg">
+                <div class="find_column">
+                  <img src="images/avatar.jpg" class="g-avatar friend_avatar" />
+                  <div class="friend_content">
+                    <span class="friend_name">
+                      Nicolás Serrano
+                    </span>
+                  </div>
+                </div>
+                <div class="friend_column">
+                  <div class="friend_add-btn">
+                      <i class="fas fa-user-plus"></i>
+                  </div>
+                </div>
+              </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav_list">
+            <!-- >a 로 시작하면 자동으로 a태그가 추가되서 생성  이후 nav_list-link는 클래스명-->
+            <!-- li.nav_list-item*4>a.nav_list-link -->
+            <li class="nav_list-item">
+                <a href="friends.html" class="nav_list-link">
+                    <div class="i far fa-user"></div>
+                </a>
+            </li>
+            <li class="nav_list-item">
+                <a href="index.html" class="nav_list-link">
+                    <i class="far fa-comments"></i>
+                </a>
+            </li>
+            <li class="nav_list-item">
+                <a href="find.html" class="nav_list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="nav_list-item">
+                <a href="more.html" class="nav_list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
