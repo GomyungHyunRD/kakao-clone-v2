@@ -1,0 +1,90 @@
+<!-- Chart List -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/02adadbc14.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats | Kakao Clone</title>
+</head>
+
+<body>
+    <!-- .status-bar -->
+    <div class="status-bar">
+        <!-- .status-bar*2 -->
+        <div class="status-bar_column">
+            <!-- span.status-bar-clock -->
+            <span class="status-bar_clock">13:54</span>
+        </div>
+        <div class="status-bar_column">
+            <!-- i.fas.fa-volume-mute -->
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar_battery-level">100%</span>
+            <i class="fas fa-battery-full"></i>
+        </div>
+    </div>
+    <header class="header">
+        <!-- .header_header-columns*2 -->
+        <div class="header_header-columns">
+            <div class="header_back-btn">
+                <a href="index.html">
+                    <i class="fas fa-arrow-left fa-2x"></i>
+                </a>
+            </div>
+            <h1 class="header_title">Chat</h1>
+        </div>
+        <div class="header_header-columns">
+            <span class="header_icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <div class="header_icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <main class="chat">
+        <ul class="chat_message">
+            <span class="chat_timestmap">Friday, January 11, 2019</span>
+            <li class="incoming-mesage mesage">
+                <img src="images/avatar.jpg" class="g-avatar message_avatar">
+                <div class="message_content">
+                    <span class="message_author">Best Friend</span>
+                    <div class="message_bubble">
+                        Congrats I Love you!
+                    </div>
+                </div>
+                <span class="meesage_timestamp"></span>
+            </li>
+
+            <li class="incoming-mesage mesage">
+                <span class="meesage_timestamp"></span>
+                <div class="message_content">
+                    <div class="message_bubble">
+                        Ok, Fine
+                    </div>
+                </div>
+            </li>
+        </ul>
+</main>
+<div class="chat_write">
+    <div class="chat_write-column">
+        <i class="far fa-plus-square"></i>
+    </div>
+    <div class="chat_write-column">
+        <input type="text" placeholder="Send Message" class="chat_write-input/>
+    </div>
+    <div class="chat_write-column">
+        <span class="chat_write-icon">
+            <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat_write-icon">
+            <i class="fas fa-microphone"></i>
+        </span>
+    </div>
+</div>
+</body>
+
+</html>
